@@ -1,0 +1,14 @@
+#spring.application.name=Assignment_Bidding_System
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/system
+    username: postgres
+    password: borey1102
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
